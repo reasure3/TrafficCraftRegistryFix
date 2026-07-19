@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.reasure3.trafficcraftregistryfix.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ModItemsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
