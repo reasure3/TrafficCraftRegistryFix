@@ -33,6 +33,13 @@ repositories {
             includeGroup 'curse.maven'
         }
     }
+    maven {
+        name = 'Architectury'
+        url = uri('https://maven.architectury.dev')
+        content {
+            includeGroup 'dev.architectury'
+        }
+    }
 }
 
 base {
@@ -109,6 +116,7 @@ dependencies {
     // And its provides the option to then use net.minecraft as the group, and one of; client, server or joined as the module name, plus the game version as version.
     // For all intends and purposes: You can treat this dependency as if it is a normal library you would use.
     implementation "net.neoforged:neoforge:${neo_version}"
+    compileOnly "dev.architectury:architectury-neoforge:${architectury_version}"
     implementation "curse.maven:trafficcraft-852322:7754967"
     implementation "curse.maven:dragonlib-946163:7752628"
 
