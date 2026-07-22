@@ -1,6 +1,6 @@
 # Short description
 
-An unofficial compatibility patch for the duplicate recipe-type registration crash in TrafficCraft 1.2.0+3 on NeoForge 21.1.238.
+An unofficial compatibility patch for the duplicate recipe-type registration crash in TrafficCraft 1.2.0+3 on NeoForge versions from 21.1.237 (inclusive) to 21.1.300 (exclusive).
 
 # TrafficCraft Registry Fix
 
@@ -18,7 +18,7 @@ TrafficCraft itself is required separately and is not included or redistributed 
 
 ## How this project differs from TrafficCraft
 
-TrafficCraft Registry Fix is not a replacement, fork, or content expansion for TrafficCraft. It is a small patch that fixes the following startup crash in TrafficCraft 1.2.0+3 when used with NeoForge 21.1.238:
+TrafficCraft Registry Fix is not a replacement, fork, or content expansion for TrafficCraft. It is a small patch that fixes the following startup crash in TrafficCraft 1.2.0+3 on supported NeoForge versions:
 
 `Adding duplicate value 'trafficcraft_damageable_recipe_type' to registry`
 
@@ -29,7 +29,7 @@ No TrafficCraft assets are included, and no other registrations, content, recipe
 ## Supported environment
 
 - Minecraft 1.21.1
-- NeoForge 21.1.238
+- NeoForge 21.1.237 or newer, below 21.1.300
 - TrafficCraft 1.2.0+3
 - Java 21
 - Client and dedicated server

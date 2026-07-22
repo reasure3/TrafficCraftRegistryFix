@@ -8,7 +8,7 @@ version="${mod_version}"
 displayName="${mod_name}"
 logoFile="trafficcraft_registry_fix.png"
 description='''
-Fixes the duplicate damageable recipe type registration in TrafficCraft 1.2.0+3 on NeoForge 21.1.238.
+Fixes the duplicate damageable recipe type registration in TrafficCraft 1.2.0+3 on supported NeoForge 21.1 versions.
 '''
 
 [[mixins]]
@@ -17,7 +17,7 @@ config="${mod_id}.mixins.json"
 [[dependencies.${mod_id}]]
 modId="neoforge"
 type="required"
-versionRange="[${neo_version}]"
+versionRange="${neo_version_range}"
 ordering="NONE"
 side="BOTH"
 

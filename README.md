@@ -23,7 +23,7 @@ so Architectury can register it normally as `trafficcraft:damageable_recipe_type
 ## Supported environment
 
 - Minecraft 1.21.1
-- NeoForge 21.1.238
+- NeoForge 21.1.237 or newer, below 21.1.300
 - TrafficCraft 1.2.0+3
 - Java 21
 - Client and dedicated server
